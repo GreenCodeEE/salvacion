@@ -26,3 +26,4 @@ console.log(galletaVainilla);
 console.log(galletaChocolate.sabor);
 console.log(galletaVainilla.sabor);
 
+//Agregando un comentario
