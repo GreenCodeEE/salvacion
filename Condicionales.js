@@ -28,3 +28,5 @@ switch (conSwitch){
         console.log("El valor ingresado es: distincto");
         break;
 }
+
+
