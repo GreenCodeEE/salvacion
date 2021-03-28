@@ -20,12 +20,12 @@ console.log(arregloNombres);
 */
 
 //programa
-const prompt = require ('prompt-sync');
+const prompt = require('prompt-sync') ();
 var calificaciones = [];
-var calificaciones[]=  prompt('Ingrese la primera calificación: ');
-var calificaciones[] =  prompt('Ingrese la segunda calificación: ');
-var calificaciones[] = prompt('Dame la tercera calificacion: ');
-var calificaciones[] = prompt('Dame la cuarta calificación; '):
-var calificaciones[] = prompt('Dame la quinta calificación: ');
-var resultado = ((calificaciones[0] + calificaciones[1] + alificaciones[2] + calificaciones[3] + calificaciones[4])/5)
+calificaciones[0] = prompt('Ingrese la primera calificación: ');
+calificaciones[1] = prompt('Ingrese la segunda calificación: ');
+calificaciones[2] = prompt('Dame la tercera calificacion: ');
+calificaciones[3] = prompt('Dame la cuarta calificación; ');
+calificaciones[4] = prompt('Dame la quinta calificación: ');
+var resultado = ((calificaciones[0] + calificaciones[1] + calificaciones[2] + calificaciones[3] + calificaciones[4])/5)
 console.log(resultado);
